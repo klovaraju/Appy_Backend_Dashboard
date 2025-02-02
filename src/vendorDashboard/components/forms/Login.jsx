@@ -71,7 +71,7 @@ const Login = ({showWelcomeHandler}) => {
             <label>Email</label>
             <input type="text" name='email' value = {email} onChange={(e)=>setEmail(e.target.value)} placeholder='enter your email'/><br />
             <label>Password</label>
-            <input   type={showPassword? "text":"password"} name='password' value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='enter your password'/><br />
+            <input type={showPassword? "text":"password"} name='password' value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='enter your password'/><br />
             <span className='showPassword'
               onClick={handleShowPassword}
               >{showPassword ? 'Hide' : 'Show'}</span>
